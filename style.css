@@ -1,0 +1,52 @@
+h1{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h4{
+	text-transform:uppercase;
+}
+
+.line-separate{
+	background: #eff7ff;
+	height: 2px;
+	margin: 10px 0;
+	}
+
+.topic-separate{
+	background: #0080ff;
+	height: 2px;
+	margin: 10px 0;
+	}
+	
+.img-responsive{
+	margin: 0 auto;
+}
+
+.caret-edit{
+	min-height: 34px;
+}
+
+.center-ul{
+	margin:0 auto;
+}
+
+.border-cover{
+	border: 1px solid green;
+	border-radius: 15px;
+	padding: 15px;
+	margin: 10px 0;
+}
+
+.panel-edit{
+	padding: 5px 15px;
+	text-transform:uppercase;
+}
+
+.fixed-element{
+	position:fixed;
+	right: 0;
+	bottom: 0;
+	padding: 15px;
+	z-index: 1;
+}

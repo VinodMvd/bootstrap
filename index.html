@@ -1,0 +1,1484 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"#a"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Bootstrap works</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="menu-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4"> </div>
+      <div class="col-sm-4">
+        <div class="border-cover">
+          <h1 id="menu"> menu </h1>
+          <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#table">TABLE</a> </h4>
+              </div>
+              <div id="table" class="panel-collapse collapse">
+                <div class="panel-body panel-edit"> <a href="#basic-table" > BASIC TABLE </a> </div>
+                <div class="panel-body panel-edit"> <a href="#striped-table" > STRIPED TABLE </a> </div>
+                <div class="panel-body panel-edit"> <a href="#bordered-table" > BORDERED TABLE </a> </div>
+                <div class="panel-body panel-edit"> <a href="#hover-table" > hover TABLE </a> </div>
+                <div class="panel-body panel-edit"> <a href="#condensed-table" > CONDENSED TABLE </a> </div>
+                <div class="panel-body panel-edit"> <a href="#contextual-table" > CONTEXTUAL TABLE </a> </div>
+                <div class="panel-body panel-edit"> <a href="#responsive-table" > RESPONSIVE TABLE </a> </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#images">images</a> </h4>
+              </div>
+              <div id="images" class="panel-collapse collapse">
+                <div class="panel-body panel-edit"> <a href="#rounded-image" > ROUNDED IMAGE </a> </div>
+                <div class="panel-body panel-edit"> <a href="#circle-image" > CIRCLE IMAGE </a> </div>
+                <div class="panel-body panel-edit"> <a href="#thumbnail-image" > THUMBNAIL IMAGE </a> </div>
+                <div class="panel-body panel-edit"> <a href="#responsive-image" > RESPONSIVE IMAGE </a> </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#alerts">alerts</a> </h4>
+              </div>
+              <div id="alerts" class="panel-collapse collapse">
+                <div class="panel-body panel-edit"> <a href="#basic-alert" > BASIC ALERT </a> </div>
+                <div class="panel-body panel-edit"> <a href="#link-alert" > LINK ALERT</a> </div>
+                <div class="panel-body panel-edit"> <a href="#closing-alert" > CLOSING ALERT </a> </div>
+                <div class="panel-body panel-edit"> <a href="#animating-closing-alert" > ANIMATING CLOSING ALERT </a> </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#buttons">buttons</a> </h4>
+              </div>
+              <div id="buttons" class="panel-collapse collapse">
+                <div class="panel-body panel-edit"> <a href="#button-styles" > button styles </a> </div>
+                <div class="panel-body panel-edit"> <a href="#button-size" > button size </a> </div>
+                <div class="panel-body panel-edit"> <a href="#block-level-buttons" > block level buttons </a> </div>
+                <div class="panel-body panel-edit"> <a href="#active-disabled-buttons" > active disabled buttons </a> </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#button-group">BUTTON GROUP</a> </h4>
+              </div>
+              <div id="button-group" class="panel-collapse collapse">
+                <div class="panel-body panel-edit"> <a href="#button-group-basic" > button group basic </a> </div>
+                <div class="panel-body panel-edit"> <a href="#vertical-button" > vertical button </a> </div>
+                <div class="panel-body panel-edit"> <a href="#button-a-tag" > button justified using "a" tag </a> </div>
+                <div class="panel-body panel-edit"> <a href="#justified-using-button" > button justified using button </a> </div>
+                <div class="panel-body panel-edit"> <a href="#dropdown-button" > dropdown button </a> </div>
+                <div class="panel-body panel-edit"> <a href="#split-button" > split button </a> </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#progress-bar">progress bar</a> </h4>
+              </div>
+              <div id="progress-bar" class="panel-collapse collapse">
+                <div class="panel-body panel-edit"> <a href="#basic-progress-bar" > basic progress bar </a> </div>
+                <div class="panel-body panel-edit"> <a href="#label-progress-bar" > label progress bar </a> </div>
+                <div class="panel-body panel-edit"> <a href="#colored-progress-bar" > colored progress bar </a> </div>
+                <div class="panel-body panel-edit"> <a href="#striped-progress-bar" > striped progress bar </a> </div>
+                <div class="panel-body panel-edit"> <a href="#animated-progress-bar" > animated progress bar </a> </div>
+                <div class="panel-body panel-edit"> <a href="#stacked-progress-bar" > stacked progress bar </a> </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#panel">panel</a> </h4>
+              </div>
+              <div id="panel" class="panel-collapse collapse">
+                <div class="panel-body panel-edit"> <a href="#panel-default" > panel default </a> </div>
+                <div class="panel-body panel-edit"> <a href="#panel-heading" > panel heading </a> </div>
+                <div class="panel-body panel-edit"> <a href="#panel-footer" > panel footer </a> </div>
+                <div class="panel-body panel-edit"> <a href="#panel-group" > panel group </a> </div>
+                <div class="panel-body panel-edit"> <a href="#contextual-class" > contextual class </a> </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#dropdown1">dropdown</a> </h4>
+              </div>
+              <div id="dropdown1" class="panel-collapse collapse">
+                <div class="panel-body panel-edit"> <a href="#basic-dropdown" > basic dropdown </a> </div>
+                <div class="panel-body panel-edit"> <a href="#dropdown-divider" > dropdown divider </a> </div>
+                <div class="panel-body panel-edit"> <a href="#dropdown-header" > dropdown header </a> </div>
+                <div class="panel-body panel-edit"> <a href="#dropdown-disable" > dropdown disable & active </a> </div>
+                <div class="panel-body panel-edit"> <a href="#dropdown-position-right" > dropdown position right </a> </div>
+                <div class="panel-body panel-edit"> <a href="#dropup" > dropup </a> </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">collapse</a> </h4>
+              </div>
+              <div id="collapse1" class="panel-collapse collapse">
+                <div class="panel-body panel-edit"> <a href="#basic-collapse" > basic collapse </a> </div>
+                <div class="panel-body panel-edit"> <a href="#first-shown-collapse" > first shown collapse </a> </div>
+                <div class="panel-body panel-edit"> <a href="#collapsible-panel" > collapsible panel </a> </div>
+                <div class="panel-body panel-edit"> <a href="#list-group-collapse" > list group collapse </a> </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#tabs-pills">Tabs/pills</a> </h4>
+              </div>
+              <div id="tabs-pills" class="panel-collapse collapse">
+                <div class="panel-body panel-edit"> <a href="#list" > menus </a> </div>
+                <div class="panel-body panel-edit"> <a href="#tabs" > tabs </a> </div>
+                <div class="panel-body panel-edit"> <a href="#tabs-with-dropdown" > tabs with dropdown menus </a> </div>
+                <div class="panel-body panel-edit"> <a href="#pills" > pills </a> </div>
+                <div class="panel-body panel-edit"> <a href="#vertical-pills" > vertical pills </a> </div>
+                <div class="panel-body panel-edit"> <a href="#vertical-pills-row" > vertical pills in a row </a> </div>
+                <div class="panel-body panel-edit"> <a href="#pills-with-dropdown" > pills with dropdown menus </a> </div>
+                <div class="panel-body panel-edit"> <a href="#centered-tabs-pills" > centered tabs & pills </a> </div>
+                <div class="panel-body panel-edit"> <a href="#dynamic-tabs" > dynamic tabs </a> </div>
+                <div class="panel-body panel-edit"> <a href="#dynamic-pills" > dynamic pills </a> </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4"> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="fixed-element"> <a href="#top"> <i style="font-size: 40px;"  class="fa">&#xf0aa;</i> </a> </div>
+<div class="table-container">
+  <div class="container">
+    <h1> tables </h1>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="row">
+          <div class="col-sm-12">
+            <h4 id="basic-table"> basic table </h4>
+          </div>
+          <div class="col-sm-2"> </div>
+          <div class="col-sm-8">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th> Student name </th>
+                  <th> Student course </th>
+                  <th> Marks </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td> Joseph </td>
+                  <td> CSE </td>
+                  <td> 98 </td>
+                </tr>
+                <tr>
+                  <td> Mathew </td>
+                  <td> ECE </td>
+                  <td> 95 </td>
+                </tr>
+                <tr>
+                  <td> Ram </td>
+                  <td> EEE </td>
+                  <td> 30 </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-sm-2"> </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="row">
+          <div class="col-sm-1"> </div>
+          <div class=" col-sm-10 line-separate"> </div>
+          <div class="col-sm-1"> </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <h4 id="striped-table"> Striped table </h4>
+          </div>
+          <div class="col-sm-2"> </div>
+          <div class="col-sm-8">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th> Student name </th>
+                  <th> Student course </th>
+                  <th> Marks </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td> Joseph </td>
+                  <td> CSE </td>
+                  <td> 98 </td>
+                </tr>
+                <tr>
+                  <td> Mathew </td>
+                  <td> ECE </td>
+                  <td> 95 </td>
+                </tr>
+                <tr>
+                  <td> Ram </td>
+                  <td> EEE </td>
+                  <td> 30 </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-sm-2"> </div>
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div class="row">
+          <div class="col-sm-1"> </div>
+          <div class=" col-sm-10 line-separate"> </div>
+          <div class="col-sm-1"> </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <h4 id="bordered-table"> Bordered table </h4>
+          </div>
+          <div class="col-sm-2"> </div>
+          <div class="col-sm-8">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th> Student name </th>
+                  <th> Student course </th>
+                  <th> Marks </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td> Joseph </td>
+                  <td> CSE </td>
+                  <td> 98 </td>
+                </tr>
+                <tr>
+                  <td> Mathew </td>
+                  <td> ECE </td>
+                  <td> 95 </td>
+                </tr>
+                <tr>
+                  <td> Ram </td>
+                  <td> EEE </td>
+                  <td> 30 </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-sm-2"> </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="row">
+          <div class="col-sm-1"> </div>
+          <div class=" col-sm-10 line-separate"> </div>
+          <div class="col-sm-1"> </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <h4 id="hover-table"> Hover table </h4>
+          </div>
+          <div class="col-sm-2"> </div>
+          <div class="col-sm-8">
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th> Student name </th>
+                  <th> Student course </th>
+                  <th> Marks </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td> Joseph </td>
+                  <td> CSE </td>
+                  <td> 98 </td>
+                </tr>
+                <tr>
+                  <td> Mathew </td>
+                  <td> ECE </td>
+                  <td> 95 </td>
+                </tr>
+                <tr>
+                  <td> Ram </td>
+                  <td> EEE </td>
+                  <td> 30 </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-sm-2"> </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="row">
+          <div class="col-sm-1"> </div>
+          <div class=" col-sm-10 line-separate"> </div>
+          <div class="col-sm-1"> </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <h4 id="condensed-table"> Condensed table </h4>
+          </div>
+          <div class="col-sm-2"> </div>
+          <div class="col-sm-8">
+            <table class="table table-condensed">
+              <thead>
+                <tr>
+                  <th> Student name </th>
+                  <th> Student course </th>
+                  <th> Marks </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td> Joseph </td>
+                  <td> CSE </td>
+                  <td> 98 </td>
+                </tr>
+                <tr>
+                  <td> Mathew </td>
+                  <td> ECE </td>
+                  <td> 95 </td>
+                </tr>
+                <tr>
+                  <td> Ram </td>
+                  <td> EEE </td>
+                  <td> 30 </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-sm-2"> </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="row">
+          <div class="col-sm-1"> </div>
+          <div class=" col-sm-10 line-separate"> </div>
+          <div class="col-sm-1"> </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <h4 id="contextual-table"> Contextual table </h4>
+          </div>
+          <div class="col-sm-2"> </div>
+          <div class="col-sm-8">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th> Student name </th>
+                  <th> Student course </th>
+                  <th> Marks </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="success">
+                  <td> Joseph </td>
+                  <td> CSE </td>
+                  <td> 98 </td>
+                </tr>
+                <tr class="info">
+                  <td> Mathew </td>
+                  <td> ECE </td>
+                  <td> 95 </td>
+                </tr>
+                <tr class="danger">
+                  <td> Ram </td>
+                  <td> EEE </td>
+                  <td> 30 </td>
+                </tr>
+                <tr class="active">
+                  <td> Raj </td>
+                  <td> EEE </td>
+                  <td> 40 </td>
+                </tr>
+                <tr class="warning">
+                  <td> Hasan </td>
+                  <td> IT </td>
+                  <td> 70 </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-sm-2"> </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="row">
+          <div class="col-sm-1"> </div>
+          <div class="col-sm-10 line-separate"> </div>
+          <div class="col-sm-1"> </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <h4 id="responsive-table"> Responsive table </h4>
+          </div>
+          <div class="col-sm-2"> </div>
+          <div class="col-sm-8">
+            <div class="table-responsive">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th> Student name </th>
+                    <th> Student course </th>
+                    <th> Marks </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr >
+                    <td> Joseph </td>
+                    <td> CSE </td>
+                    <td> 98 </td>
+                  </tr>
+                  <tr>
+                    <td> Mathew </td>
+                    <td> ECE </td>
+                    <td> 95 </td>
+                  </tr>
+                  <tr>
+                    <td> Ram </td>
+                    <td> EEE </td>
+                    <td> 30 </td>
+                  </tr>
+                  <tr>
+                    <td> Raj </td>
+                    <td> EEE </td>
+                    <td> 40 </td>
+                  </tr>
+                  <tr>
+                    <td> Hasan </td>
+                    <td> IT </td>
+                    <td> 70 </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="col-sm-2"> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="image-container">
+  <div class="container">
+    <div class="topic-separate"> </div>
+    <h1> Images </h1>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="rounded-image"> Rounded image </h4>
+      </div>
+      <div class="col-sm-2"> </div>
+      <div class="col-sm-8">
+        <div class="text-center"> <img src="Images/cat.jpg" class="img-rounded" alt="Cat" width="260" height="236"> </div>
+      </div>
+      <div class="col-sm-2"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="circle-image"> Circle image </h4>
+      </div>
+      <div class="col-sm-2"> </div>
+      <div class="col-sm-8">
+        <div class="text-center"> <img src="Images/cat.jpg" class="img-circle" alt="Cat" width="260" height="236"> </div>
+      </div>
+      <div class="col-sm-2"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="thumbnail-image"> Thumbnail image </h4>
+      </div>
+      <div class="col-sm-2"> </div>
+      <div class="col-sm-8">
+        <div class="text-center"> <img src="Images/cat.jpg" class="img-thumbnail" alt="Cat" width="260" height="236"> </div>
+      </div>
+      <div class="col-sm-2"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="responsive-image"> Responsive image </h4>
+      </div>
+      <div class="col-sm-2"> </div>
+      <div class="col-sm-8">
+        <div class="text-center"> <img src="Images/cat.jpg" class="img-responsive" alt="Cat" width="260" height="236"> </div>
+      </div>
+      <div class="col-sm-2"> </div>
+    </div>
+  </div>
+</div>
+<div class="alert-container">
+  <div class="container">
+    <div class="topic-separate"> </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h1> alerts </h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="basic-alert"> Basic alert </h4>
+      </div>
+      <div class="col-sm-12">
+        <div class="alert alert-success"> <strong>Success!</strong> Alert box in green color. </div>
+        <div class="alert alert-info"> <strong>Info!</strong> Alert box in blue color. </div>
+        <div class="alert alert-warning"> <strong>Warning!</strong> Alert box in orange color. </div>
+        <div class="alert alert-danger"> <strong>Danger!</strong> Alert box in red color. </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="link-alert"> Link alert </h4>
+      </div>
+      <div class="col-sm-12">
+        <div class="alert alert-success"> <strong>Success!</strong> Alert box in <a href="#a" class="alert-link"> green color</a>. </div>
+        <div class="alert alert-info"> <strong>Info!</strong> Alert box in <a href="#a" class="alert-link"> blue color</a>. </div>
+        <div class="alert alert-warning"> <strong>Warning!</strong> Alert box in <a href="#a" class="alert-link"> orange color</a>. </div>
+        <div class="alert alert-danger"> <strong>Danger!</strong> Alert box in <a href="#a" class="alert-link"> red color</a>. </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="closing-alert"> Closing alert </h4>
+      </div>
+      <div class="col-sm-12">
+        <div class="alert alert-success alert-dismissible"> <a href="#a" class="close" data-dismiss="alert" aria-label="close">&times;</a> <strong>Success!</strong> Alert box in green color. </div>
+        <div class="alert alert-info alert-dismissable"> <a href="#a" class="close" data-dismiss="alert" aria-label="close">&times;</a> <strong>Info!</strong> Alert box in blue color. </div>
+        <div class="alert alert-warning alert-dismissable"> <a href="#a" class="close" data-dismiss="alert" aria-label="close">&times;</a> <strong>Warning!</strong> Alert box in orange color. </div>
+        <div class="alert alert-danger alert-dismissable"> <a href="#a" class="close" data-dismiss="alert" aria-label="close">&times;</a> <strong>Danger! </strong> Alert box in red color. </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="animating-closing-alert"> animating closing alert </h4>
+      </div>
+      <div class="col-sm-12">
+        <div class="alert alert-success alert-dismissible fade in"> <a href="#a" class="close" data-dismiss="alert" aria-label="close">&times;</a> <strong>Success!</strong> Alert box in green color. </div>
+        <div class="alert alert-info alert-dismissable fade in"> <a href="#a" class="close" data-dismiss="alert" aria-label="close">&times;</a> <strong>Info!</strong> Alert box in blue color. </div>
+        <div class="alert alert-warning alert-dismissable fade in"> <a href="#a" class="close" data-dismiss="alert" aria-label="close">&times;</a> <strong>Warning!</strong> Alert box in orange color. </div>
+        <div class="alert alert-danger alert-dismissable fade in"> <a href="#a" class="close" data-dismiss="alert" aria-label="close">&times;</a> <strong>Danger! </strong> Alert box in red color. </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="button-container">
+  <div class="container">
+    <div class="topic-separate"> </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h1> buttons </h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="button-styles"> button styles </h4>
+      </div>
+      <div class="col-sm-12">
+        <div class="text-center">
+          <button class="btn"> Basic </button>
+          <button class="btn btn-default"> Default </button>
+          <button class="btn btn-primary"> Primary </button>
+          <button class="btn btn-info"> Info </button>
+          <button class="btn btn-success"> Success </button>
+          <button class="btn btn-warning"> Warning </button>
+          <button class="btn btn-danger"> Danger </button>
+          <button class="btn btn-link"> Link </button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="button-size"> button size </h4>
+      </div>
+      <div class="col-sm-12">
+        <div class="text-center">
+          <button class="btn btn-danger btn-lg"> Large </button>
+          <button class="btn btn-danger btn-md"> Medium </button>
+          <button class="btn btn-danger btn-sm"> Small </button>
+          <button class="btn btn-danger btn-xs"> Xsmall </button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="block-level-buttons"> Block level buttons </h4>
+      </div>
+      <div class="col-sm-12">
+        <button class="btn btn-danger btn-lg btn-block"> Large block level button </button>
+        <button class="btn btn-primary btn-xs btn-block"> Xsmall block level button </button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="active-disabled-buttons"> active disabled buttons</h4>
+      </div>
+      <div class="col-sm-12">
+        <div class="text-center">
+          <button class="btn btn-danger active"> ACTIVE </button>
+          <button class="btn btn-danger disabled"> DISABLED </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="button-group-container">
+  <div class="container">
+    <div class="topic-separate"> </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h1> button group </h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="button-group-basic"> button group basic </h4>
+      </div>
+      <div class="col-sm-12">
+        <div class="text-center">
+          <div class="btn-group">
+            <button class="btn btn-warning"> HOME </button>
+            <button class="btn btn-warning"> CONTACT </button>
+            <button class="btn btn-warning"> ABOUT </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="vertical-button"> Vertical button </h4>
+      </div>
+      <div class="col-sm-12">
+        <div class="text-center">
+          <div class="btn-group-vertical">
+            <button class="btn btn-danger"> HOME </button>
+            <button class="btn btn-danger"> CONTACT </button>
+            <button class="btn btn-danger"> ABOUT </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="button-a-tag"> Button justified using "a" tag </h4>
+      </div>
+      <div class="col-sm-12">
+        <div class="btn-group btn-group-justified"> <a href="#a" class="btn btn-info"> HOME </a> <a href="#a" class="btn btn-info"> CONTACT </a> <a href="#a" class="btn btn-info"> ABOUT </a> </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="justified-using-button"> Button justified using button </h4>
+      </div>
+      <div class="col-sm-12">
+        <div class="btn-group btn-group-justified">
+          <div class="btn-group">
+            <button class="btn btn-success"> HOME </button>
+          </div>
+          <div class="btn-group">
+            <button href="#a" class="btn btn-success"> CONTACT </button>
+          </div>
+          <div class="btn-group">
+            <button href="#a" class="btn btn-success"> ABOUT </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="dropdown-button"> Dropdown button </h4>
+      </div>
+      <div class="col-sm-12">
+        <div class="text-center">
+          <div class="btn-group ">
+            <button class="btn btn-info"> HOME </button>
+            <button class="btn btn-info"> CONTACT </button>
+            <div class="btn-group">
+              <button class="btn btn-info dropdown-toggle" data-toggle="dropdown"> PAGE <span class="caret"> </span> </button>
+              <div class="dropdown-menu">
+                <li><a href="#a"> PAGE 1 </a> </li>
+                <li><a href="#a"> PAGE 2 </a> </li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="split-button"> Split button </h4>
+      </div>
+      <div class="col-sm-12">
+        <div class="text-center">
+          <div class="btn-group">
+            <button class="btn btn-primary"> PROFILE </button>
+            <button class="btn btn-primary dropdown-toggle caret-edit" data-toggle="dropdown"> <span class="caret"></span> </button>
+            <ul class="dropdown-menu">
+              <li> <a href="#a"> ABOUT ME </a> </li>
+              <li> <a href="#a"> CONTACT </a> </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="progressbar-container">
+  <div class="container">
+    <div class="topic-separate"> </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h1> progress bar </h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="basic-progress-bar"> Basic progress bar </h4>
+      </div>
+      <div class="col-sm-12">
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="70"
+  aria-valuemin="0" aria-valuemax="100" style="width:70%"> <span class="sr-only">70% Complete</span> </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="label-progress-bar"> label progress bar </h4>
+      </div>
+      <div class="col-sm-12">
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%;"> 40% </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="colored-progress-bar"> colored progress bar </h4>
+      </div>
+      <div class="col-sm-12">
+        <div class="progress">
+          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%" > 50% complete (Success) </div>
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div class="progress">
+          <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%"> 45% complete (warning) </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="striped-progress-bar"> striped progress bar </h4>
+      </div>
+      <div class="col-sm-12">
+        <div class="progress">
+          <div class="progress-bar progress-bar-danger progress-bar-striped" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"> 60% complete (danger) </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="animated-progress-bar"> animated progress bar </h4>
+      </div>
+      <div class="col-sm-12">
+        <div class="progress">
+          <div class="progress-bar progress-bar-warning progress-bar-striped active" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"> 80% (warning) </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="stacked-progress-bar"> Stacked progress bar </h4>
+      </div>
+      <div class="col-sm-12">
+        <div class="progress">
+          <div class="progress-bar progress-bar-success" style="width: 40%;"> 40% </div>
+          <div class="progress-bar progress-bar-warning" style="width: 20%;"> 20% </div>
+          <div class="progress-bar progress-bar-danger" style="width: 20%;"> 20% </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="progressbar-container">
+  <div class="container">
+    <div class="topic-separate"> </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h1> panel </h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="panel-default"> Panel default </h4>
+      </div>
+      <div class="col-sm-12">
+        <div class="panel panel-default">
+          <div class="panel-body"> CONTAINER </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="panel-heading"> Panel heading </h4>
+      </div>
+      <div class="col-sm-12">
+        <div class="panel panel-default">
+          <div class="panel-heading"> HEADER </div>
+          <div class="panel-body"> CONTAINER </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="panel-footer"> Panel footer </h4>
+      </div>
+      <div class="col-sm-12">
+        <div class="panel panel-default">
+          <div class="panel-body"> CONTAINER </div>
+          <div class="panel-footer"> FOOTER </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="panel-group"> Panel group </h4>
+      </div>
+      <div class="col-sm-12">
+        <div class="panel-group">
+          <div class="panel panel-default">
+            <div class="panel-heading"> HEADER </div>
+            <div class="panel-body"> CONTAINER </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-body"> CONTAINER </div>
+            <div class="panel-footer"> FOOTER </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading"> HEADER </div>
+            <div class="panel-body"> CONTAINER </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-body"> CONTAINER </div>
+            <div class="panel-footer"> FOOTER </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="contextual-class"> contextual class </h4>
+      </div>
+      <div class="col-sm-12">
+        <div class="panel panel-success">
+          <div class="panel-heading"> HEADER </div>
+          <div class="panel-body"> CONTAINER </div>
+          <div class="panel-footer"> FOOTER </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="dropdown-container">
+  <div class="container">
+    <div class="topic-separate"> </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h1> dropdown </h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="basic-dropdown"> basic dropdown </h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> MOBILE <span class="caret"> </span> </button>
+          <ul class="dropdown-menu">
+            <li> <a href="#a"> MOTOROLA </a> </li>
+            <li> <a href="#a"> REDMI </a> </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="dropdown-divider"> Dropdown divider </h4>
+      </div>
+      <div class="col-sm-12">
+        <div class="dropdown">
+          <button class="btn btn-danger dropdown-toggle" data-toggle="dropdown"> LAPTOPS <span class="caret"> </span> </button>
+          <ul class="dropdown-menu">
+            <li> <a href="#a"> VAIO </a> </li>
+            <li class="divider"> </li>
+            <li> <a herf="#a"> DELL </a> </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="dropdown-header"> Dropdown header </h4>
+      </div>
+      <div class="col-sm-12">
+        <div class="dropdown">
+          <button class="btn btn-info dropdown-toggle" data-toggle="dropdown"> DEVICES <span class="caret"> </span> </button>
+          <ul class="dropdown-menu">
+            <li class="dropdown-header"> MOBILE </li>
+            <li> <a href="#a"> MOTO G2 </a> </li>
+            <li> <a href="#a"> MI A1 </a> </li>
+            <li class="divider"> </li>
+            <li class="dropdown-header"> LAPTOP </li>
+            <li> <a href="#a"> VAIO </a> </li>
+            <li> <a href="#a"> DELL </a> </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="dropdown-disable"> Dropdown disable & active </h4>
+      </div>
+      <div class="col-sm-12">
+        <div class="dropdown">
+          <button class="btn btn-basic dropdown-toggle" data-toggle="dropdown"> LAPTOPS <span class="caret"> </span> </button>
+          <ul class="dropdown-menu">
+            <li class="active"> <a href="#a"> VAIO </a> </li>
+            <li class="disabled"> <a herf="#a"> DELL </a> </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="dropdown-position-right"> dropdown position right </h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="dropdown">
+          <button class="btn btn-warning dropdown-toggle" data-toggle="dropdown"> MOBILE <span class="caret"> </span> </button>
+          <ul class="dropdown-menu dropdown-menu-right">
+            <li> <a href="#a"> MOTOROLA </a> </li>
+            <li> <a href="#a"> REDMI </a> </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="dropup"> dropup </h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="dropup">
+          <button class="btn btn-success dropdown-toggle" data-toggle="dropdown"> MOBILE <span class="caret"> </span> </button>
+          <ul class="dropdown-menu">
+            <li> <a href="#a"> MOTOROLA </a> </li>
+            <li> <a href="#a"> REDMI </a> </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="collapse-container">
+  <div class="container">
+    <div class="topic-separate"> </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h1> collapse </h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="basic-collapse"> basic collapse </h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="text-center">
+          <button class="btn btn-danger" data-toggle="collapse" data-target="#button-name1"> CLICK ME </button>
+          <div id="button-name1" class="collapse">
+            <p> Hello this is the paragraph element which is collapsible </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="first-shown-collapse"> First shown collapse </h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="text-center">
+          <button class="btn btn-primary" data-toggle="collapse" data-target="#button-name2"> HIDE/SHOW </button>
+          <div id="button-name2" class="collapse in">
+            <p> This element is shown at first </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="collapsible-panel"> Collapsible panel </h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="panel-group">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title"> <a data-toggle="collapse" href="#button-name3"> Click me </a> </h3>
+            </div>
+            <div class="panel-collapse collapse" id="button-name3">
+              <div class="panel-body"> This element is shown in a panel body </div>
+              <div class="panel-footer"> This element is shown in a panel footer </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-1"> </div>
+          <div class=" col-sm-10 line-separate"> </div>
+          <div class="col-sm-1"> </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <h4 id="list-group-collapse"> List group collapse </h4>
+          </div>
+          <div class="col-sm-12">
+            <div class="panel-group">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h3 class="panel-title"> <a href="#button-name4" data-toggle="collapse"> CLICK ME </a> </h3>
+                </div>
+                <div class="panel-collapse collapse" id="button-name4">
+                  <ul class="list-group">
+                    <li class="list-group-item"> <a href="#a" > MOTO G2 </a> </li>
+                    <li class="list-group-item"> <a href="#a"> MI A1 </a> </li>
+                    <li class="list-group-item"> <a href="#a"> SONY </a> </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="tabpills-container">
+  <div class="container">
+    <div class="topic-separate"> </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h1> Tabs / pills </h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="list"> menus </h4>
+      </div>
+      <div class="col-sm-12">
+        <ul class="list-inline">
+          <li> <a href="#a"> HOME </a> </li>
+          <li> <a href="#a"> CONTACT </a> </li>
+          <li> <a href="#a"> ABOUT </a> </li>
+          <li> <a href="#a"> LOGIN </a> </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="tabs"> tabs </h4>
+      </div>
+      <div class="col-sm-12">
+        <ul class="nav nav-tabs">
+          <li class="active"> <a href="#a"> HOME </a> </li>
+          <li> <a href="#a"> CONTACT </a> </li>
+          <li> <a href="#a"> ABOUT </a> </li>
+          <li> <a href="#a"> LOGIN </a> </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="tabs-with-dropdown"> tabs with dropdown menus </h4>
+      </div>
+      <div class="col-sm-12">
+        <ul class="nav nav-tabs">
+          <li class="active"> <a href="#a"> HOME </a> </li>
+          <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#a"> DEVICES <span class="caret"> </span> </a>
+            <ul class="dropdown-menu">
+              <li> <a href="#a"> MOTO G2 </a> </li>
+              <li> <a href="#a"> MI A1 </a> </li>
+            </ul>
+          </li>
+          <li> <a href="#a"> CONTACT </a> </li>
+          <li> <a href="#a"> ABOUT </a> </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="pills"> pills </h4>
+      </div>
+      <div class="col-sm-12">
+        <ul class="nav nav-pills">
+          <li class="active"> <a href="#a"> HOME </a> </li>
+          <li> <a href="#a"> CONTACT </a> </li>
+          <li> <a href="#a"> ABOUT </a> </li>
+          <li> <a href="#a"> LOGIN </a> </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="vertical-pills"> vertical pills </h4>
+      </div>
+      <div class="col-sm-12">
+        <ul class="nav nav-pills nav-stacked">
+          <li class="active"> <a href="#a"> HOME </a> </li>
+          <li> <a href="#a"> CONTACT </a> </li>
+          <li> <a href="#a"> ABOUT </a> </li>
+          <li> <a href="#a"> LOGIN </a> </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="vertical-pills-row"> vertical pills in a row </h4>
+      </div>
+      <div class="col-sm-3">
+        <p> This is used as a four separated elements in the larger devices and one after another in a small device</p>
+      </div>
+      <div class="col-sm-3">
+        <p> This is used as a four separated elements in the larger devices and one after another in a small device</p>
+      </div>
+      <div class="col-sm-3">
+        <p> This is used as a four separated elements in the larger devices and one after another in a small device</p>
+      </div>
+      <div class="col-sm-3">
+        <ul class="nav nav-pills nav-stacked">
+          <li class="active"> <a href="#a"> HOME </a> </li>
+          <li> <a href="#a"> CONTACT </a> </li>
+          <li> <a href="#a"> ABOUT </a> </li>
+          <li> <a href="#a"> LOGIN </a> </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="pills-with-dropdown"> pills with dropdown menu </h4>
+      </div>
+      <div class="col-sm-12">
+        <ul class="nav nav-pills nav-stacked">
+          <li class="active"> <a href="#a"> HOME </a> </li>
+          <li class="dropdown"> <a href="#a" class="dropdown-toggle" data-toggle="dropdown"> DEVICES <span class="caret"> </span> </a>
+            <ul class="dropdown-menu">
+              <li> <a href="#a"> MOTO G2 </a> </li>
+              <li> <a href="#a"> MI A1 </a> </li>
+            </ul>
+          </li>
+          <li> <a href="#a"> CONTACT </a> </li>
+          <li> <a href="#a"> ABOUT </a> </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="centered-tabs-pills"> Centered tabs & pills </h4>
+      </div>
+      <div class="col-sm-12">
+        <ul class="nav nav-pills nav-justified">
+          <li class="active"> <a href="#a"> HOME </a> </li>
+          <li> <a href="#a"> CONTACT </a> </li>
+          <li> <a href="#a"> ABOUT </a> </li>
+          <li> <a href="#a"> LOGIN </a> </li>
+        </ul>
+        <br />
+        <ul class="nav nav-tabs nav-justified">
+          <li class="active"> <a href="#a"> HOME </a> </li>
+          <li> <a href="#a"> CONTACT </a> </li>
+          <li> <a href="#a"> ABOUT </a> </li>
+          <li> <a href="#a"> LOGIN </a> </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="dynamic-tabs"> Dynamic tabs </h4>
+      </div>
+      <div class="col-sm-12">
+        <ul class="nav nav-tabs">
+          <li class="active"> <a data-toggle="tab" href="#home"> HOME </a> </li>
+          <li> <a data-toggle="tab" href="#contact"> CONTACT </a> </li>
+          <li> <a data-toggle="tab" href="#about"> ABOUT </a> </li>
+          <li> <a data-toggle="tab" href="#login"> LOGIN </a> </li>
+        </ul>
+        <div class="tab-content">
+          <div id="home" class="tab-pane fade in active">
+            <p> This is my home page content </p>
+          </div>
+          <div id="contact" class="tab-pane fade in">
+            <p> This is my contact page content </p>
+          </div>
+          <div id="about" class="tab-pane fade in">
+            <p> This is my about page content </p>
+          </div>
+          <div id="login" class="tab-pane fade in">
+            <p> This is my login page content </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-1"> </div>
+      <div class=" col-sm-10 line-separate"> </div>
+      <div class="col-sm-1"> </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 id="dynamic-pills"> Dynamic pills </h4>
+      </div>
+      <div class="col-sm-12">
+        <ul class="nav nav-pills">
+          <li class="active"> <a data-toggle="pill" href="#home1"> HOME </a> </li>
+          <li> <a data-toggle="pill" href="#contact1"> CONTACT </a> </li>
+          <li> <a data-toggle="pill" href="#about1"> ABOUT </a> </li>
+          <li> <a data-toggle="pill" href="#login1"> LOGIN </a> </li>
+        </ul>
+        <div class="tab-content">
+          <div id="home1" class="tab-pane fade in active">
+            <p> This is my home page content </p>
+          </div>
+          <div id="contact1" class="tab-pane fade in">
+            <p> This is my contact page content </p>
+          </div>
+          <div id="about1" class="tab-pane fade in">
+            <p> This is my about page content </p>
+          </div>
+          <div id="login1" class="tab-pane fade in">
+            <p> This is my login page content </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="topic-separate"> </div>
+  </div>
+</div>
+</body>
+</html>
